@@ -1,0 +1,329 @@
+/*-------------------------------
+
+1 > Admin Panel
+2 > Inventory Management
+
+
+
+
+
+
+---------------------------------------*/
+
+/*=========================================================
+	01 -> Admin panel
+===========================================================*/
+
+
+
+.side-nav{
+
+    
+    width: 100%;
+    background-color: #ff3300;
+    height: 100%;
+    float: left;
+    position: relative;
+
+    
+
+
+}
+
+.side-nav ul{
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+
+
+}
+
+.side-nav ul li{
+
+    padding: 20px 20px;
+    border-bottom: 1px solid #333;
+
+
+}
+
+.side-nav ul li a{
+
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+
+
+
+}
+.side-nav ul li a i{
+
+    color: #333;
+    text-decoration: none;
+
+
+}
+.maint-content{
+float: left;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .side-nav{
+        width: 180px;
+        
+    }
+    .side-nav ul li span:nth-child(2){
+        display: inline;
+    }
+    .side-nav ul li i{
+        font-size: 20px;
+    }
+
+}
+
+.section-admin{
+
+    background-color: #333399;
+    
+   
+
+
+}
+
+#admin-details{
+
+    padding-top: 30px;
+    padding-left: 30px;
+   
+
+}
+
+.admin-btn{
+
+    float: right;
+    border-radius: 30 30 30 30;
+    font-size: 20px;
+    
+    
+  
+    
+
+}
+.admin-btn button{
+
+    float: right;
+    border-radius: 30px 30px 30px 30px;
+    font-size: 20px;
+    height: auto;
+    background-color: #ff3300;
+    height:  40px;
+    width:  100px;
+    color: white;
+  
+    
+
+}
+
+#order-request{
+    float: right;
+    padding-top: 30px;
+    padding-left: 0px;
+    
+
+}
+
+.order-request-table tr{
+
+    border: 3px solid #202060;
+   
+    
+    
+    
+
+
+
+}
+
+.order-request-table th{
+
+  height: 40px;
+  width: auto;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+  background-color: #202060;
+
+
+
+}
+
+.order-request-table td{
+
+    text-align: center;
+    height: 80px;
+     width: 1000px;
+     font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+
+
+}
+
+
+
+
+
+
+.approve-btn{
+
+    color: white;
+    background-color: #00ff00;
+    font-size: 10px;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Montserrat',sans-serif;
+
+}
+
+.cancel-btn{
+
+    color: white;
+    background-color: #ff0000;
+    font-size: 10px;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    height: 20px;
+    width: 65px;
+
+
+}
+
+.remove-btn button{
+
+    float: right;
+    background-color: darkred;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 16px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    
+}
+
+/*=========================================================
+	02 -> Inventory Management
+===========================================================*/
+
+#inventory-details{
+
+padding-top: 50px;
+padding-left: 50px;
+
+}
+
+.add-item-btn{
+
+    float: right;
+    font-size: 15px;
+    color: white;
+    background-color: #333399;
+    border-radius: 5px 5px 5px 5px;
+
+
+}
+
+.search-txt{
+
+    border-color: #ff3300;
+    width: 200px;
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+}
+
+.search-item-btn button{
+
+    font-family: 'Montserrat',sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+    background-color: #ff3300;
+    color:white;
+}
+
+.inventory-table th{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    background-color: #202060;
+    
+
+
+
+}
+
+.inventory-table td{
+
+    text-align: center;
+    height: 70px;
+     width: auto;
+     font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+
+
+}
+
+.inventory-table tr{
+
+    border: 2px solid #202060;
+
+}
+
+.inv-edit-btn{
+
+    color: #4169E1;
+    background-color:  #D3D3D3;
+    font-size: 10px;
+    font-family: 'Montserrat',sans-serif;
+    height: auto;
+    width: 58px;
+    border-color: gainsboro;
+    border-radius: 5px;
+  
+
+
+}
+
+.inv-delete-btn{
+
+    color: #c91d12;
+    background-color: #D3D3D3;
+    font-size: 10px;
+    font-family: 'Montserrat',sans-serif;
+    height: auto;
+    width: auto;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.action-btn{
+
+    font-size: 10px;
+    text-align: center;
+
+
+
+}
+
+
+
+
+
